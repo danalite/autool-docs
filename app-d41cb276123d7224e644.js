@@ -109518,7 +109518,7 @@ var pathPrefix=(0,gatsby_browser_entry.withPrefix)('/').replace(/\/$/,'');var pa
 // 且 gallery 会出现 `location.key = 'initial'` 逻辑，所以先统一处理为需要 menu
 if(isExamplePage){setWithMenu(true);}else if(isDocsPage){// 文档页为 404 时 footer 没有 menu
 setWithMenu(!(location.key==='initial'));}else{setWithMenu(false);}},[location]);var getColums=function getColums(){// 如果外部没有传入 columns，则默认展示默认 footer
-var col1={title:t('资源'),items:[{icon:/*#__PURE__*/react.createElement("img",{src:"https://img.alicdn.com/imgextra/i1/O1CN01JhV5ts1dKtJraHkGo_!!6000000003718-2-tps-36-36.png",alt:t('工作流脚本')}),title:t('工作流脚本'),url:'https://github.com/',openExternal:true}// {
+var col1={title:t('资源'),items:[{icon:/*#__PURE__*/react.createElement("img",{src:"https://img.alicdn.com/imgextra/i1/O1CN01JhV5ts1dKtJraHkGo_!!6000000003718-2-tps-36-36.png",alt:t('工作流脚本')}),title:t('工作流脚本'),url:'https://github.com/danalite/awesome-autool-scripts',openExternal:true}// {
 //   icon: (
 //     <img
 //       src="https://img.alicdn.com/imgextra/i1/O1CN01mY1gO81erhIwTdhFK_!!6000000003925-2-tps-36-30.png"
@@ -109551,7 +109551,7 @@ var col1={title:t('资源'),items:[{icon:/*#__PURE__*/react.createElement("img",
 //   url: 'https://github.com/opensumi/Default-Themes',
 //   openExternal: true,
 // },
-]};var col2={title:t('社区'),items:[{icon:/*#__PURE__*/react.createElement("img",{src:"https://img.alicdn.com/imgextra/i1/O1CN01ISm2G81GUIHuhCJJK_!!6000000000625-2-tps-124-90.png",alt:"d2conf"}),title:"Discord - "+t('AuTool用户社区'),url:'https://d2.alibabatech.com/',openExternal:true}// {
+]};var col2={title:t('社区'),items:[{icon:/*#__PURE__*/react.createElement("img",{src:"https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-512.png",alt:"d2conf"}),title:"Discord - "+t('AuTool用户社区'),url:'https://discord.gg/P3t2SvQaZp',openExternal:true}// {
 //   icon: (
 //     <img
 //       src="https://gw.alipayobjects.com/zos/rmsportal/mZBWtboYbnMkTBaRIuWQ.png"
@@ -109562,7 +109562,18 @@ var col1={title:t('资源'),items:[{icon:/*#__PURE__*/react.createElement("img",
 //   url: 'https://seeconf.antfin.com/',
 //   openExternal: true,
 // },
-]};var col3={title:t('帮助'),items:[{icon:/*#__PURE__*/react.createElement("img",{src:"https://img.alicdn.com/imgextra/i3/O1CN01hOukdb26V4zGBJGyN_!!6000000007666-2-tps-48-48.png",alt:"github"}),title:'GitHub Issues',url:'https://github.com/danalite/autool/issues',openExternal:true}]};var more={icon:/*#__PURE__*/react.createElement("img",{src:"https://gw.alipayobjects.com/zos/rmsportal/nBVXkrFdWHxbZlmMbsaH.svg",alt:"more products"}),title:t('更多产品'),items:[{icon:/*#__PURE__*/react.createElement("img",{src:"https://img.alicdn.com/imgextra/i1/O1CN01P04WYq1HV2XD2XhTP_!!6000000000762-2-tps-180-172.png",alt:t('淘宝开发者工具')}),title:t('淘宝开发者工具'),url:'https://miniapp-dev.taobao.com/',openExternal:true},{icon:/*#__PURE__*/react.createElement("img",{src:"https://img.alicdn.com/imgextra/i2/O1CN01DVM7ow1njIZNWiUnK_!!6000000005125-2-tps-180-172.png",alt:t('支付宝小程序开发工具')}),title:t('支付宝小程序开发工具'),url:'https://opendocs.alipay.com/mini/ide/overview',openExternal:true}]};return[col1,col2,col3,more];};return/*#__PURE__*/react.createElement(es,Object.assign({maxColumnsPerRow:5,theme:theme,columns:columns||getColums(),className:classnames_default()(footer,(_classnames={},_classnames[Footer_module_withMenu]=withMenu,_classnames[Footer_module_collapsed]=collapsed,_classnames)),bottom:bottom||'Copyright © 2019-present Alibaba Group Holding Limited, Ant Group Co. Ltd.'},omit_js_es(restProps,['githubUrl'])));};/* harmony default export */ var components_Footer = (Footer_Footer);
+]};var col3={title:t('帮助'),items:[{icon:/*#__PURE__*/react.createElement("img",{src:"https://img.alicdn.com/imgextra/i3/O1CN01hOukdb26V4zGBJGyN_!!6000000007666-2-tps-48-48.png",alt:"github"}),title:'GitHub Issues',url:'https://github.com/danalite/autool/issues',openExternal:true}]};var more={icon:/*#__PURE__*/react.createElement("img",{src:"https://gw.alipayobjects.com/zos/rmsportal/nBVXkrFdWHxbZlmMbsaH.svg",alt:"more products"}),title:t('更多产品'),items:[{icon:/*#__PURE__*/react.createElement("img",{src:"https://img.alicdn.com/imgextra/i1/O1CN01P04WYq1HV2XD2XhTP_!!6000000000762-2-tps-180-172.png",alt:t('快捷AI工具')}),title:t('快捷AI工具'),url:'https://miniapp-dev.taobao.com/',openExternal:true}// {
+//   icon: (
+//     <img
+//       src="https://img.alicdn.com/imgextra/i2/O1CN01DVM7ow1njIZNWiUnK_!!6000000005125-2-tps-180-172.png"
+//       alt={t('支付宝小程序开发工具')}
+//     />
+//   ),
+//   title: t('支付宝小程序开发工具'),
+//   url: 'https://opendocs.alipay.com/mini/ide/overview',
+//   openExternal: true,
+// },
+]};return[col1,col2,col3,more];};return/*#__PURE__*/react.createElement(es,Object.assign({maxColumnsPerRow:5,theme:theme,columns:columns||getColums(),className:classnames_default()(footer,(_classnames={},_classnames[Footer_module_withMenu]=withMenu,_classnames[Footer_module_collapsed]=collapsed,_classnames)),bottom:bottom||'Copyright © 2019-present Alibaba Group Holding Limited, Ant Group Co. Ltd.'},omit_js_es(restProps,['githubUrl'])));};/* harmony default export */ var components_Footer = (Footer_Footer);
 ;// CONCATENATED MODULE: ../@opensumi/gatsby-theme/site/components/CopyRightFooter.module.less
 // extracted by mini-css-extract-plugin
 var CopyRightFooter_module_collapsed = "CopyRightFooter-module--collapsed--cNyV-";
