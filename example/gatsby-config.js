@@ -8,33 +8,41 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: 'OpenSumi',
+    title: 'AuTool',
     description:
-      '一款帮助你快速搭建本地和云端 IDE 的框架 - A framework helps you quickly build Cloud or Desktop IDE products.',
+      '一款基于AI的工作流自动化框架 - AI-powered workflow automation platform',
     siteUrl: 'https://opensumi.com',
     logo: {
-      img: 'https://img.alicdn.com/imgextra/i1/O1CN01XTErpN24JVlOVVK2I_!!6000000007370-2-tps-300-300.png',
+      img: 'https://raw.githubusercontent.com/danalite/autool/main/imgs/logo-small.png',
       link: 'https://opensumi.com',
     },
     logoUrl:
-      'https://img.alicdn.com/imgextra/i1/O1CN01XTErpN24JVlOVVK2I_!!6000000007370-2-tps-300-300.png',
-    githubUrl: 'https://github.com/opensumi/core',
-    docsUrl: 'https://github.com/opensumi/doc',
+      'https://raw.githubusercontent.com/danalite/autool/main/imgs/logo-small.png',
+    githubUrl: 'https://github.com/danalite/autool',
+    docsUrl: 'https://github.com/danalite/autool-docs',
     navs: [
       {
-        slug: 'docs/develop/how-to-contribute',
+        slug: 'docs/develop/introduction',
         title: {
-          zh: '开发文档',
-          en: 'Development',
+          zh: '使用文档',
+          en: 'Documents',
         },
       },
     ],
     docs: [
       {
+        slug: 'develop/quick-start',
+        title: {
+          zh: '快速开始',
+          en: 'Getting Started',
+        },
+        order: 3,
+      },
+      {
         slug: 'develop/sample',
         title: {
           zh: '开发案例',
-          en: 'Develop Sample',
+          en: 'Samples',
         },
         order: 4,
       },
@@ -48,7 +56,7 @@ module.exports = {
         url: '#',
       },
     ],
-    showDingTalkQRCode: true,
+    showDingTalkQRCode: false,
     showWeChatQRCode: true,
     weChatQRCode:
       'https://img.alicdn.com/imgextra/i1/O1CN01jNQjmP1OXW4hj6p7s_!!6000000001715-2-tps-200-239.png',

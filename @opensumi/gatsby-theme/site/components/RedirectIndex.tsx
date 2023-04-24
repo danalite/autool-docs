@@ -36,9 +36,9 @@ class RedirectIndex extends React.PureComponent<WithTranslation> {
     return (
       <>
         <Seo
-          title={title || 'OpenSumi'}
-          titleSuffix={t('OpenSumi 框架')}
-          description={t('一款帮助你快速搭建本地和云端 IDE 的框架。')}
+          title={title || 'AuTool'}
+          titleSuffix={t('AuTool 框架')}
+          description={t('一款基于AI的工作流自动化框架。')}
           lang={this.langKey}
         />
         <PageLoading />

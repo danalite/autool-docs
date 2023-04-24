@@ -66,11 +66,20 @@ const Banner: React.FC<BannerProps> = ({
   const [remoteNews, setRemoteNews] = useState<NotificationProps[]>([]);
 
   useEffect(() => {
-    fetch(notificationsUrl)
-      .then((res) => res.json())
-      .then((data) => {
-        setRemoteNews(data);
-      });
+    setRemoteNews([
+      {
+        type: 'Product Launch',
+        title: 'Product Hunt',
+        date: '2023.4.15',
+        link: 'https://qcon.infoq.cn/202302/beijing/presentation/4503',
+      },
+      {
+        type: 'Forum',
+        title: 'Global Software Development Conference',
+        date: '2023.2.6 - 2023.2.7',
+        link: 'https://qcon.infoq.cn/202302/beijing/presentation/5159',
+      },
+    ]);
   }, [notificationsUrl]);
 
   const notificationsNode = (notifications || remoteNews)

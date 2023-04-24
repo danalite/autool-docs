@@ -95,7 +95,7 @@ const IndexPage: React.FC = () => {
   const bannerButtons = [
     {
       text: t('快速开始'),
-      link: './docs/integrate/quick-start/web',
+      link: './docs/develop/quick-start/installation',
       type: 'primary',
     },
     {
@@ -110,8 +110,8 @@ const IndexPage: React.FC = () => {
       <Banner
         coverImage={<BannerSVG />}
         logoUrl={logoUrl}
-        title={t('OpenSumi')}
-        description={t('一款帮助你快速搭建本地和云端 IDE 的框架。')}
+        title={t('AuTool')}
+        description={t('一款基于AI的工作流自动化框架。')}
         className="banner"
         buttons={bannerButtons}
       />

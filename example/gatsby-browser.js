@@ -44,8 +44,8 @@ exports.wrapPageElement = ({ element, props }) => {
     ...props,
     ...element.props,
     footerProps: {
-      bottom: `Copyright © 2019-present Alibaba Group Holding Limited, Ant Group Co. Ltd.`,
+      bottom: `Copyright © 2023-present DanaLite. Ltd. (Singapore) AuTool`,
     },
-    showCopyRight: true,
+    showCopyRight: false,
   });
 };
