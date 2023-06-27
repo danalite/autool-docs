@@ -11,10 +11,10 @@ module.exports = {
     title: 'AuTool',
     description:
       '一款基于AI的工作流自动化框架 - AI-powered workflow automation platform',
-    siteUrl: 'https://opensumi.com',
+    siteUrl: 'https://autool.site',
     logo: {
       img: 'https://raw.githubusercontent.com/danalite/autool/main/imgs/logo-small.png',
-      link: 'https://opensumi.com',
+      link: 'https://autool.site',
     },
     logoUrl:
       'https://raw.githubusercontent.com/danalite/autool/main/imgs/logo-small.png',
@@ -41,10 +41,18 @@ module.exports = {
       {
         slug: 'develop/sample',
         title: {
-          zh: '开发案例',
-          en: 'Samples',
+          zh: '应用案例',
+          en: 'Sample Workflows',
         },
         order: 4,
+      },
+      {
+        slug: 'develop/api-reference',
+        title: {
+          zh: 'API 文档',
+          en: 'API Reference',
+        },
+        order: 5,
       },
     ],
     ecosystems: [

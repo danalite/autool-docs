@@ -57,46 +57,46 @@ const Footer: React.FC<FooterProps> = ({
           icon: (
             <img
               src="https://img.alicdn.com/imgextra/i1/O1CN01JhV5ts1dKtJraHkGo_!!6000000003718-2-tps-36-36.png"
-              alt={t('WebIDE 案例')}
+              alt={t('工作流脚本')}
             />
           ),
-          title: t('WebIDE 案例'),
-          url: 'https://github.com/opensumi/ide-startup',
+          title: t('工作流脚本'),
+          url: 'https://github.com/danalite/awesome-autool-scripts',
           openExternal: true,
         },
-        {
-          icon: (
-            <img
-              src="https://img.alicdn.com/imgextra/i1/O1CN01mY1gO81erhIwTdhFK_!!6000000003925-2-tps-36-30.png"
-              alt={t('Electron 案例')}
-            />
-          ),
-          title: t('Electron 案例'),
-          url: 'https://github.com/opensumi/ide-electron',
-          openExternal: true,
-        },
-        {
-          icon: (
-            <img
-              src="https://img.alicdn.com/imgextra/i1/O1CN0186yMXa1ng5oNbsydA_!!6000000005118-2-tps-30-36.png"
-              alt={t('纯前端案例')}
-            />
-          ),
-          title: t('纯前端案例'),
-          url: 'https://github.com/opensumi/ide-startup-lite',
-          openExternal: true,
-        },
-        {
-          icon: (
-            <img
-              src="https://img.alicdn.com/imgextra/i4/O1CN01JDS6U626MprDmVM8D_!!6000000007648-2-tps-36-36.png"
-              alt={t('官方主题')}
-            />
-          ),
-          title: t('官方主题'),
-          url: 'https://github.com/opensumi/Default-Themes',
-          openExternal: true,
-        },
+        // {
+        //   icon: (
+        //     <img
+        //       src="https://img.alicdn.com/imgextra/i1/O1CN01mY1gO81erhIwTdhFK_!!6000000003925-2-tps-36-30.png"
+        //       alt={t('Electron 案例')}
+        //     />
+        //   ),
+        //   title: t('Electron 案例'),
+        //   url: 'https://github.com/opensumi/ide-electron',
+        //   openExternal: true,
+        // },
+        // {
+        //   icon: (
+        //     <img
+        //       src="https://img.alicdn.com/imgextra/i1/O1CN0186yMXa1ng5oNbsydA_!!6000000005118-2-tps-30-36.png"
+        //       alt={t('纯前端案例')}
+        //     />
+        //   ),
+        //   title: t('纯前端案例'),
+        //   url: 'https://github.com/opensumi/ide-startup-lite',
+        //   openExternal: true,
+        // },
+        // {
+        //   icon: (
+        //     <img
+        //       src="https://img.alicdn.com/imgextra/i4/O1CN01JDS6U626MprDmVM8D_!!6000000007648-2-tps-36-36.png"
+        //       alt={t('官方主题')}
+        //     />
+        //   ),
+        //   title: t('官方主题'),
+        //   url: 'https://github.com/opensumi/Default-Themes',
+        //   openExternal: true,
+        // },
       ],
     };
 
@@ -106,25 +106,25 @@ const Footer: React.FC<FooterProps> = ({
         {
           icon: (
             <img
-              src="https://img.alicdn.com/imgextra/i1/O1CN01ISm2G81GUIHuhCJJK_!!6000000000625-2-tps-124-90.png"
+              src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-512.png"
               alt="d2conf"
             />
           ),
-          title: `D2 - ${t('D2 前端技术论坛')}`,
-          url: 'https://d2.alibabatech.com/',
+          title: `Discord - ${t('AuTool用户社区')}`,
+          url: 'https://discord.gg/P3t2SvQaZp',
           openExternal: true,
         },
-        {
-          icon: (
-            <img
-              src="https://gw.alipayobjects.com/zos/rmsportal/mZBWtboYbnMkTBaRIuWQ.png"
-              alt="seeconf"
-            />
-          ),
-          title: `SEE Conf - ${t('蚂蚁体验科技大会')}`,
-          url: 'https://seeconf.antfin.com/',
-          openExternal: true,
-        },
+        // {
+        //   icon: (
+        //     <img
+        //       src="https://gw.alipayobjects.com/zos/rmsportal/mZBWtboYbnMkTBaRIuWQ.png"
+        //       alt="seeconf"
+        //     />
+        //   ),
+        //   title: `SEE Conf - ${t('蚂蚁体验科技大会')}`,
+        //   url: 'https://seeconf.antfin.com/',
+        //   openExternal: true,
+        // },
       ],
     };
 
@@ -139,7 +139,18 @@ const Footer: React.FC<FooterProps> = ({
             />
           ),
           title: 'GitHub Issues',
-          url: 'https://github.com/opensumi/core/issues',
+          url: 'https://github.com/danalite/autool/issues',
+          openExternal: true,
+        },
+        {
+          icon: (
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_cTJMGw0u-6pa22rOEAxiIXcaOaGp-_PXxw&usqp=CAU"
+              alt="github"
+            />
+          ),
+          title: t('联系我们'),
+          url: 'mailto:support@autool.site',
           openExternal: true,
         },
       ],
@@ -158,24 +169,24 @@ const Footer: React.FC<FooterProps> = ({
           icon: (
             <img
               src="https://img.alicdn.com/imgextra/i1/O1CN01P04WYq1HV2XD2XhTP_!!6000000000762-2-tps-180-172.png"
-              alt={t('淘宝开发者工具')}
+              alt={t('桌面AI工作流')}
             />
           ),
-          title: t('淘宝开发者工具'),
+          title: t('桌面AI工作流'),
           url: 'https://miniapp-dev.taobao.com/',
           openExternal: true,
         },
-        {
-          icon: (
-            <img
-              src="https://img.alicdn.com/imgextra/i2/O1CN01DVM7ow1njIZNWiUnK_!!6000000005125-2-tps-180-172.png"
-              alt={t('支付宝小程序开发工具')}
-            />
-          ),
-          title: t('支付宝小程序开发工具'),
-          url: 'https://opendocs.alipay.com/mini/ide/overview',
-          openExternal: true,
-        },
+        // {
+        //   icon: (
+        //     <img
+        //       src="https://img.alicdn.com/imgextra/i2/O1CN01DVM7ow1njIZNWiUnK_!!6000000005125-2-tps-180-172.png"
+        //       alt={t('支付宝小程序开发工具')}
+        //     />
+        //   ),
+        //   title: t('支付宝小程序开发工具'),
+        //   url: 'https://opendocs.alipay.com/mini/ide/overview',
+        //   openExternal: true,
+        // },
       ],
     };
 

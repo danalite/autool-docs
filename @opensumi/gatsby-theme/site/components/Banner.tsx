@@ -68,15 +68,15 @@ const Banner: React.FC<BannerProps> = ({
   useEffect(() => {
     setRemoteNews([
       {
-        type: 'Product Launch',
-        title: 'Product Hunt',
-        date: '2023.4.15',
-        link: 'https://qcon.infoq.cn/202302/beijing/presentation/4503',
+        type: 'New',
+        title: 'AI plugins release',
+        date: 'ChatGPT, Stable Diffusion, and more',
+        link: 'https://github.com/danalite/autool/releases/',
       },
       {
-        type: 'Forum',
-        title: 'Global Software Development Conference',
-        date: '2023.2.6 - 2023.2.7',
+        type: 'News',
+        title: 'Product launch',
+        date: 'YC Hacker News',
         link: 'https://qcon.infoq.cn/202302/beijing/presentation/5159',
       },
     ]);

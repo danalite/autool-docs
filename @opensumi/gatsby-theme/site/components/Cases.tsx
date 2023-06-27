@@ -72,7 +72,15 @@ const Cases: React.FC<CasesProps> = ({ cases = [], style = {}, className }) => {
 
       return (
         <div className={styles.appWrapper} key={app.title}>
-          <img className={styles.appTeaser} src={app.image} alt={app.title} />
+          <iframe
+            className={styles.appTeaser}
+            src="https://www.youtube.com/embed/8FOwCdPLD0c"
+            title={app.title}
+            width="840"
+            frameBorder={0}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
           <div className={styles.appLeft}>
             <div className={styles.appContent}>
               <img
@@ -112,7 +120,7 @@ const Cases: React.FC<CasesProps> = ({ cases = [], style = {}, className }) => {
   };
   return (
     <div className={classNames(styles.wrapper, className)} style={style}>
-      <div className={styles.title}>{t('产品案例')}</div>
+      <div className={styles.title}>{t('案例')}</div>
       <Slider
         {...sliderSettings}
         className={styles.slider}

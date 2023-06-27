@@ -3,13 +3,13 @@
   "name": "example",
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://opensumi.com",
+  "homepage": "https://autool.site",
   "repository": {
     "type": "git",
-    "url": "https://github.com/opensumi/gatsby-theme/tree/master/example"
+    "url": "https://github.com/danalite/autool-docs"
   },
   "bugs": {
-    "url": "https://github.com/opensumi/gatsby-theme/issues"
+    "url": "https://github.com/danalite/autool-docs/issues"
   },
   "scripts": {
     "build": "npm run clean && gatsby build --prefix-paths --no-uglify",

@@ -18,10 +18,10 @@ module.exports = ({
 }) => {
   const config = {
     siteMetadata: {
-      title: `OpenSumi`,
-      description: `OpenSumi Doc Theme`,
-      siteUrl: 'https://opensumi.com',
-      githubUrl: 'https://github.com/opensumi/gatsby-theme',
+      title: `AuTool`,
+      description: `AuTool Doc Site`,
+      siteUrl: 'https://autool.site',
+      githubUrl: 'https://github.com/danalite/autool',
       navs: [],
       docs: [],
       examples: [],

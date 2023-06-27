@@ -1,6 +1,6 @@
 ---
 id: Installation
-title: Installation
+title: 安装AuTool
 slug: Installation
 order: 1
 ---
