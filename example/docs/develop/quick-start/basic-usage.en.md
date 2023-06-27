@@ -5,9 +5,15 @@ slug: Basic-Usage
 order: 2
 ---
 
+Once you have installed AuTool, double click the AuTool icon to start the app. AuTool will automatically download test cases script bundle after launch for the first time.
+
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-main-window.png" alt="Test Cases" width="600"/>
+
 ## Run Test Cases
 
-Now you have installed AuTool, double click the AuTool icon to start the app. AuTool will automatically download test cases script bundle after launch. We recommend you to run the test cases first to make sure everything is working as expected.
+We recommend you to run the test cases first to make sure everything is working as expected. You can click any scripts on the right hand side of the main window to run it.
+
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-hello-world.gif" alt="Test Cases" width="600"/>
 
 ## AuTool Hotkeys
 
