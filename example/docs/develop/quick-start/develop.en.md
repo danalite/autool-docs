@@ -1,25 +1,26 @@
 ---
 id: Develop-Scripts
-title: Develop scripts
+title: Write a Script
 slug: develop-Scripts
 order: 4
 ---
 
-# Develop plugins
+##
 
-- AuTool plugin is designed for simple helpers with low user interactions. If you have a task that requires a lot of user interactions or many third-party dependencies, you should consider writing a standalone app instead.
+AuTool plugin is designed for simple helpers with low user interactions. If you have a task that requires a lot of user interactions or many third-party dependencies, you should consider writing a standalone app instead.
 
-## Automate with YAML
+## Specify actions using YAML
 
-Every AuTool plugin is a simple YAML which defines a sequence of automation steps, such as mouse clicks, keystrokes, web interactions, and more.
+Every AuTool plugin is a simple YAML file which defines a sequence of automation steps, such as mouse clicks, keystrokes, web interactions, and more.
 
 ```yaml
 actions:
   - window.in(System Settings):
       - mouse.click({{ [0,200] }})
+      - key.press(Enter+Shift)
 ```
 
-## Talk to popup windows
+## Display with popup windows
 
 Plugins can instantiate popup windows to ask for user inputs. All the GUI components in the popup window are defined in YAML in JSON syntax. Example of a popup window that asks for user name:
 
@@ -37,7 +38,7 @@ actions:
   - os.shell( got {{ $resp['username'] }})
 ```
 
-### Pin stickers on screen
+## Screen Annotations
 
 Plugins can draw stickers on your screen. This can be used as reminders, or guide people how to use a software.
 
@@ -52,13 +53,13 @@ actions:
           } ] }})
 ```
 
-### Let apps collaborate
+## Event-Driven Programming
 
-You can connect multiple apps into a pipeline. For example, the following plugin will send a message to your Discord channel when a new email titled with `Hello` is received.
+AuTool captures events from the system and triggers actions based on the event type. For example, you can write a plugin that monitors the clipboard and sends the content to a Discord channel when the clipboard changes.
 
 ```yaml
 actions:
-  - event.on(__IMAP__, {{ {'email':'...' } }}) => $r:
-      - cmd.if({{ $r['title'] == 'Hello' }}):
-          - web.http(POST, https://discord.com/api/webhooks/...)
+  - event.on(__CLIPBOARD_CHANGE__) => $r:
+      - cmd.if({{ $r['type'] == 'text' }}):
+          - user.input(...)
 ```

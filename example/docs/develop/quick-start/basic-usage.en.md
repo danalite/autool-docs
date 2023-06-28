@@ -11,24 +11,38 @@ Once you have installed AuTool, double click the AuTool icon to start the app. A
 
 ## Run Test Cases
 
-We recommend you to run the test cases first to make sure everything is working as expected. You can click any scripts on the right hand side of the main window to run it.
+We recommend you to run the test cases first to make sure everything is working as expected. You can click any scripts on the right hand side of the main window to run it. You should expect a popup window to show up on the canvas.
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-hello-world.gif" alt="Test Cases" width="600"/>
 
-## AuTool Hotkeys
-
-To avoid conflicts with other apps, we use double keystrokes as reserved hotkeys. When you want to set up a hotkey for a specific script, you should avoid using them.
-
-- **Quick double tap Command/Win** to wake up or hide AuTool main window.
-
-- **Quick double tap Shift** to wake up or hide AuTool's full screened canvas window.
-
-- Meta + D: to wake up or hide AuTool BookMark window.
-
 ## Collapse into TaskBar
 
-For any installed scripts, you can select the
+AuTool's main window can be minimized into a taskbar (or restored to normal window) by clicking the rabbit icon on the top. You can select the checkbox in front of the scripts that you use frequently, and invoke the script from the minimized taskbar.
 
-## Debug
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-taskbar.gif"/>
 
-If you run into any failures, please check the log file. You can find the log file in the following locations:
+## AuTool Hotkeys
+
+AuTool reserves double-tapped hotkey to avoid conflicts with other apps. When you want to set up a hotkey for a specific script, you should avoid using them.
+
+- [Double-Tap Command/Win](https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-double-tap-cmd.gif) to show or hide AuTool main window. This is useful when you want to hide the main window temporarily and show it again later.
+
+- [Double-Tap Shift](https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-double-tap-shift.gif) to show or hide AuTool's canvas window. The popup window residing in the canvas window will be hidden but won't be closed.
+
+- [Meta + D](https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-bookmark.gif): to wake up or hide AuTool BookMark window. You can put your frequently used website links in the bookmark panel (AuTool > Settings > BookMark) and pull it up on the canvas window.
+
+## Task Management
+
+AuTool use coroutine to execute many tasks in parallel within a single process. You can see the task status and manage them in the task panel. A task can be stopped, restarted, or scheduled (with a timer or custom hotkey). All these can be configured in the task panel.
+
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-task-panel.png" alt="Test Cases" width="600"/>
+
+## Debugging
+
+If you do not see any popup windows after executing the test cases, please go to `AuTool > Settings > Server` and check if the _local worker_ is working. If not, please click the refresh icon to restart the server.
+
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-task-server.png" alt="Test Cases" width="600"/>
+
+If the local worker is working, but you still run into some failures when running certain scripts. Please open the DevTools and check the log. Please [report the issue to our github](https://github.com/danalite/autool/issues/new) if you cannot figure out the problem.
+
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-debug.png"/>

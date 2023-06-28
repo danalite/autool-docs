@@ -42,7 +42,7 @@ module.exports = {
         slug: 'develop/sample',
         title: {
           zh: '应用案例',
-          en: 'Sample Workflows',
+          en: 'Example Scripts',
         },
         order: 4,
       },
@@ -65,7 +65,7 @@ module.exports = {
       },
     ],
     showDingTalkQRCode: false,
-    showWeChatQRCode: true,
+    showWeChatQRCode: false,
     weChatQRCode:
       'https://img.alicdn.com/imgextra/i1/O1CN01jNQjmP1OXW4hj6p7s_!!6000000001715-2-tps-200-239.png',
     dingTalkQRCode:

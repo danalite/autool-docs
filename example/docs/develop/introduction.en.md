@@ -11,15 +11,13 @@ The design principle of AuTool is to make it easy to automate, easy to develop, 
 
 # AuTool Plugin Examples
 
-We listed a few examples below to give you an idea of what AuTool can do. You can find more examples in the [docs](docs) folder.
-
-To use these scripts, make sure you have installed AuTool. Then you can click the links below to install the scripts. [link](autool://download?url=someurl)
+We listed a few examples below to give you an idea of what AuTool can do. To try it out, simple click the download button inside each link to install the script.
 
 ## Data Collection
 
 - [AI chatbot](sample/data-collector#ai-chatbot)
-- [Web automation](sample/web-apps)
-- Subscribe to news, weather, and more
+- [Web automation](sample/web-apps): parse webpage into structured data
+- Visualize REST API query: A simple image searcher
 - Distribute custom forms to collect data
 - Status Monitor: website, email, or system status, including active window change, clipboard history, and more.
 
