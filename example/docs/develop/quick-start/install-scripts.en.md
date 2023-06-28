@@ -30,7 +30,7 @@ You can create a new script bundle by clicking the `+` button on the main window
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-empty-app.png"/>
 
-## Edit an existing scripts
+## Edit scripts
 
 Each app and script is editable. You can hover or right-click on the app or script to see the edit button. Click the edit button and the script will be opened, and you can edit it using your favorite editor.
 
