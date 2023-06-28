@@ -11,7 +11,7 @@ AuTool supports Windows, MacOS and Linux. The source code is available on [GitHu
 
 ## MacOS
 
-We recommend you use DMG to install app on MacOS. After dragging the app into the Applications folder, you should enter the Applications folder and open AuTool by right-clicking the app icon and selecting `Open`.
+We recommend you to use DMG for installation. After dragging the app into the Applications folder, you should enter the Applications folder and open AuTool by right-clicking the app icon and selecting `Open`.
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/install-macos-open.png"/>
 
@@ -21,7 +21,7 @@ Accessibility permission is required before you can use it. This window will pop
 
 If you accidentally close it, you can grant accessibility permission manually. You can restart it by going to `System Preferences > Security & Privacy > Accessibility` and add AuTool to the list.
 
-<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/install-macos-accessibility-open.png"/>
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/install-macos-accessibility-enable.png"/>
 
 ## Windows
 

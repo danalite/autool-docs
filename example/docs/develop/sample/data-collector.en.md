@@ -5,17 +5,13 @@ slug: data-collector
 order: 1
 ---
 
-This chapter introduces how to use AuTool to ease the data collection from various sources. We use "data collection" to indicate the process of getting to know something you did not know. It is very wide concept, and we will show you a few examples below.
+This chapter introduces how to use AuTool to ease the data collection from various sources. We use "data collection" to indicate the process of getting to know something you did not know or have. Some examples include: asking AI agent questions, querying REST APIs, or extracting information from web pages or screenshots.
 
 ## AI Chatbot
 
 [![Image](https://img.shields.io/badge/win64-download-green?logo=dependabot&style=flat-square)](https://google.com)
 
 Talk with GPT assistant in a popup window. Your input will be sent to background GPT API to get response. The script support chat history backup and loading. [Source](https://raw.githubusercontent.com/danalite/autool/main/docs/demo-screen-mask.gif)
-
-<div style="overflow-x: auto;">
-    <img src="https://raw.githubusercontent.com/danalite/awesome-autool-scripts/master/danalite/Mini-Tools/Summarize-PDFs/summary-pdf.gif" alt="Image" style="width:500px;max-width:500px"/>
-</div>
 
 ## Web Automation
 
