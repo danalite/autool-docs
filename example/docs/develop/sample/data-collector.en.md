@@ -5,7 +5,9 @@ slug: data-collector
 order: 1
 ---
 
-This chapter introduces how to use AuTool to ease the data collection from various sources. We use "data collection" to indicate the process of getting to know something you did not know or have. Some examples include: asking AI agent questions, querying REST APIs, or extracting information from web pages or screenshots.
+This chapter introduces how to use AuTool to ease the data collection from various sources. We use "data collection" to indicate the process of gathering information you did not know or have.
+
+Some examples include: asking AI agent questions, querying REST APIs, or extracting information from web pages or screenshots, requesting data from your friends or colleagues, and more.
 
 ## AI Chatbot
 
@@ -19,7 +21,9 @@ You can specify a wide range of actions to extract data from the web pages using
 
 ## Query REST APIs
 
-You can use AuTool to query REST APIs and get the response in a popup window. Here we show a simple script to query the latest landscape images from [yande.re](https://yande.re/post?tags=landscape) and display them in a popup window. [Source](https://raw.githubusercontent.com/danalite/autool/main/docs/demo-screen-mask.gif)
+You can use AuTool to query REST APIs and get the response in a popup window. Here we show a simple script to query the latest landscape images from [yande.re](https://yande.re/post?tags=landscape) and display them in a popup window.
+
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-restapi-search.gif"/>
 
 ## Image Segmentation
 
@@ -38,3 +42,7 @@ We provide an amazon deal monitor script which will popup a window when there is
 We provide a clipboard manager using the system event API in AuTool. When the script is running, it will monitor the clipboard change event and save the clipboard history to a file.
 
 You can also use the system event API to monitor other system events, such as active window change, system status, and more.
+
+## Request Data from Friends
+
+-
