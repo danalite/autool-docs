@@ -47,10 +47,10 @@ module.exports = {
         order: 4,
       },
       {
-        slug: 'develop/api-reference',
+        slug: 'develop/scripts',
         title: {
           zh: 'API 文档',
-          en: 'API Reference',
+          en: 'Developer Guide',
         },
         order: 5,
       },

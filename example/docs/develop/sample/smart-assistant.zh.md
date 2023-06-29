@@ -19,6 +19,6 @@ In some cases, you may have many files on your local or remote disk, and you wan
 
 There are many power command line tools that can help you manage your data. However, it is not easy to remember all the commands and their options. Using AuTool, you can store the frequently used commands in the YAML, write a simple GUI interface for command selection, and invoke them from a popup window.
 
-As an example, we build a simple TODO script based on `Todo.txt`, which is a super lightweight command line tool to manage your TODo items in pure text file (Make sure you [install](http://todotxt.org/) it before using this script). Edit or check finished TODO items in the popup window, and the script will automatically call the `todo.sh` command to update the TODO text file under the hood.
+As an example, we build a simple TODO script based on `Todo.txt`, which is a super lightweight command line tool to manage your TODO items in text file (Make sure you [install](http://todotxt.org/) it before using this script). Edit or check finished TODO items in the popup window, and the script will automatically call the `todo.sh` command for you under the hood.
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-todo.png"/>
