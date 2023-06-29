@@ -7,6 +7,8 @@ order: 1
 
 # AI Tools
 
+AuTool provides a wide range of AI scripts to help you with your daily work. You can use them to generate text, chat with AI, segment images, etc. Here is a few representative examples.
+
 ## AI Chatbot
 
 [![Download](https://img.shields.io/badge/script-download-green?logo=dependabot&style=flat-square)](https://google.com)
@@ -23,6 +25,8 @@ Press `Fn` and single click on the image on the screen to extract the segmentati
 <img src="https://raw.githubusercontent.com/danalite/autool/main/docs/demo-screen-mask.gif" alt="Image"/>
 
 # Web Tools
+
+Here we show a few AuTool script examples that help you with web browsing. If you want to automate web operations, please refer to [Web Automation](./process-automator#web-automation) section.
 
 ## Webpage Parsing
 
@@ -41,7 +45,7 @@ You can use AuTool to query REST APIs and get the response in a popup window. He
 
 # System Tools
 
-AuTool script provides communication channel with operating system through shell interface. You can use this capability to automate certain tasks on your computer. Here we show some examples.
+AuTool script can communicate with your operating system through shell interface and certain runtime intrinsic APIs. You can use this capability to automate certain tasks to improve your productivity.
 
 ## File Search
 
@@ -51,12 +55,14 @@ This example shows a simple script that searches and open files in a popup windo
 
 ## System Status Monitor
 
-Sometimes you may want to record the system status changes, e.g., clipboard, active window, or network status. AuTool provides a convenient way to monitor these changes, and you can leverage this capability to build interesting tools. Here we show a simple script that manages your clipboard history.
+Sometimes you may want to track the system status changes, e.g., clipboard, active window, or network status. AuTool provides a convenient way to monitor these changes, and you can leverage this capability to build interesting tools.
+
+Here we show a simple script that manages your clipboard history. When the script is running in the background, it will monitor your clipboard changes and save them into a database. You only need to hit a predefined hotkey to open the clipboard history in a popup window, and then you can select the item to paste or delete it.
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-clipboard-manager.png"/>
 
 ## Window Management
 
-Managing windows can be a tedious task. AuTool provides a convenient way to manage windows in a popup window. You can use our scripts to easily position windows on the screen, move them to other monitors, or resize them. This example shows a simple script that closes windows in batches.
+Managing windows can be a tedious task. AuTool provides a convenient way to manage windows in a popup window. You can use our scripts to move a particular window to a specific position on the screen, move windows to other monitors, or resize them. This example shows a simple script that closes windows in batches.
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-close-windows.png"/>
