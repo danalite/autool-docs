@@ -13,14 +13,12 @@ The data can be anything stored in your system, like local or remote files. AuTo
 
 In some cases, you may have many files on your local or remote disk, and you want to find a specific file (or multiple files) quickly. AuTool provides a convenient way to search for files and open them in the popup window.
 
-<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-item-search.png"/>
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-item-search.gif"/>
 
 ## Quick Path for Shell Commands
 
-There are many power command line tools that can help you manage your data. However, it is not easy to remember all the commands and their options.
+There are many power command line tools that can help you manage your data. However, it is not easy to remember all the commands and their options. Using AuTool, you can store the frequently used commands in the YAML, write a simple GUI interface for command selection, and invoke them from a popup window.
 
-AuTool provides a convenient way to organize your commands. You can store the frequently used commands in the YAML and invoke them from a popup window.
-
-We use `Todo.txt` as a showcase. `Todo.txt` is a super lightweight command line tool to manage your TODo items in pure text file. We use AuTool APIs to create a GUI interface for `Todo.txt` and make it easier to use.
+As an example, we build a simple TODO script based on `Todo.txt`, which is a super lightweight command line tool to manage your TODo items in pure text file (Make sure you [install](http://todotxt.org/) it before using this script). Edit or check finished TODO items in the popup window, and the script will automatically call the `todo.sh` command to update the TODO text file under the hood.
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-todo.png"/>
