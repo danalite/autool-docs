@@ -45,4 +45,6 @@ Is there a simple way to let users to choose what features they want and design 
 
 SaaS is supposed to make people's life easier, but with increasing complexity in business logic and some technical debts, the software system can be surprisingly hard to use. You often need to spend a lot of time to learn how to use the software and what caveats to avoid. This is another problem that AuTool is trying to solve. We want to find a way to let AI to tackle with the complex software operations, and you only need to tell the AI what you want to do.
 
-To achieve this goal, we abstract the software operations into a series programming language primitives, and use AI to learn the mapping between the user's intent and the programming language primitives. We call this "AI-assisted SaaS". We hope that in the future, you can use AuTool to create your own work assistant, and let the AI to handle the complex software operations for you.
+To achieve this goal, we abstract the software operations into a series of programming language primitives, and use AI to learn the mapping between the user's intent and these primitives to realize AI-assisted SaaS automation.
+
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/intro-auto-saas.jpg"/>
