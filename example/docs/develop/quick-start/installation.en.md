@@ -25,4 +25,4 @@ If you accidentally close it, you can grant accessibility permission manually. Y
 
 ## Windows
 
-We provide a standalone installer for Windows users. You can download the latest version from [here](https://aunote.com/download).
+We provide a standalone installer for Windows users. You can download the latest version from [here](https://github.com/danalite/autool/releases).

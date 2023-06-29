@@ -9,15 +9,19 @@ AuTool is a desktop extension system that brings the convenience of browser plug
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/intro-main-window.png"/>
 
+Similar to browser extensions, an AuTool script can run either silently in background or interactively through a popup window. The content of the popup window is fully customizable using YAML, so you can create your own UI for your script.
+
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/intro-popup-window.png"/>
+
 # AuTool Script Examples
 
-AuTool scripts
+You can use AuTool to create your own scripts. Check out [Write-Your-Own-Script](./quick-start/develop) section for more details, or you can download scripts from the [AuTool Script Library](https://github.com/danalite/awesome-autool-scripts)
 
 ## Smart Assistants
 
-- [AI chatbot](sample/data-collector#ai-chatbot)
-- File Search
--
+- [AI chatbot](sample/smart-assistant#ai-chatbot)
+- [File Search](sample/data-collector#ai-chatbot)
+- System Status Monitor
 - Knowledge Subscription
 
 ## Process Automation

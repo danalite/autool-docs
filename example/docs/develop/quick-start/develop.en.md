@@ -19,7 +19,14 @@ actions:
 
 ## Script Configuration
 
-Each task
+Each YAML task file can have a configuration section at the beginning. The configuration section specifies the task's hotkey, start time, or whether it should run local or remote in the cloud.
+
+```yaml
+configs:
+  startTime: 2021-01-01 00:00:00
+  hotkey: Ctrl+Shift+Alt+1
+  shortcut: false
+```
 
 ## Automation Steps
 

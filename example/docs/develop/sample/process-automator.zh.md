@@ -5,24 +5,6 @@ slug: process-automator
 order: 3
 ---
 
-# Workflow Automation
-
-AuTool can help you automate your workflow and improve your productivity. We provide a bunch of example scripts to help you get started. Here are some examples:
-
-## Knowledge Subscription
-
-Want to use fragmentation time to learn new knowledge? You can use AuTool to subscribe to your favorite knowledge source, and read them in your spare time. The script can be scheduled to run at a particular time so that it will prompt you the knowledge you want to learn on time, without missing any important information.
-
-The knowledge can be anything, like news, articles, or even your own notes. This example shows a French vocabulary flash cards. You can modify the script to change the flash cards to your own notes, or add audio components.
-
-<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-show-cards.gif"/>
-
-## Custom Form Builder
-
-Finding it hard to collect and organize responses from your friends or colleagues? You can use AuTool to create a simple form and send it to your friends. When they fill in the form, the data will be sent to you. You can choose to store the data in cloud storage or local disk (e.g., as a Excel or database). Here is example of using AuTool to create a RSVP form for a hiking event.
-
-<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-rsvp.png"/>
-
 # Web Automation
 
 Web automation is one of the most common use cases for AuTool. You can use AuTool script's [web operations](../scripts/web) to automate your web browser. Here are some examples:
@@ -42,3 +24,21 @@ Sometimes you may want to use proxy to hide your IP address, or use a ToR networ
 Here is an example of using AuTool script to set up a ToR proxy for your browser. Your actual IP address will be hidden behind the proxy server. You can modify the script to use other proxy services.
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-browser-tor.png"/>
+
+# Workflow Automation
+
+AuTool can also help you automate your workflow and improve your productivity. Here are some examples:
+
+## Knowledge Subscription
+
+Want to use fragmentation time to learn new knowledge? You can use AuTool to subscribe to your favorite RSS feeds, and read them in your spare time. You can also schedule the script so that it will prompt you the knowledge you want to learn at a specific time.
+
+The knowledge can be anything, like news, articles, or even your own notes. This example shows a French vocabulary flash cards. You can modify the script to change the flash cards to your own notes, or add audio components.
+
+<img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/sample-show-cards.gif"/>
+
+## Custom Form Builder
+
+Finding it hard to get data from your friends or colleagues? You can use AuTool to create a simple form and send it to your friends. When they fill in the form, the data will be sent to your email or cloud storage.
+
+Your friend or colleague does not need to install AuTool to fill in the form. They can use any browser to fill in the form.

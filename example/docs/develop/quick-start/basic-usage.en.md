@@ -27,7 +27,7 @@ AuTool use coroutine to execute many tasks in parallel within a single process. 
 
 <img src="https://raw.githubusercontent.com/danalite/autool-docs/main/images/basic-task-panel.png" alt="Test Cases" width="600"/>
 
-## AuTool Hotkeys
+## Hotkeys
 
 AuTool provides some hotkeys to help you to quickly access the main window, canvas window, and bookmark window. We use the term `Double-Tap` to indicate that you need to press the key twice in a short period of time.
 
